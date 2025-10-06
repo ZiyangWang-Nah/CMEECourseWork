@@ -7,9 +7,14 @@
 # Arguments: 1 -> tab delimited file
 # Date: Oct 2019
 
+
+if [ "$#" -ne 1 ]; then
+    echo "Error: Missing input file."
+    echo "Usage: $0 <tab_delimited_file>"
+    exit 1
+fi
+
 echo "Creating a comma delimited version of $1 ..."
 cat $1 | tr -s "\t" "," >> $1.csv
 echo "Done!"
 exit
-
-echo -e "test \t\t test" >> ../sandbox/test.txt # again, note the relative path!
