@@ -1,0 +1,18 @@
+#1 -l counts lines
+wc -l ../data/* 
+
+#2 prints everything from the second line
+tail -n +2 ../data/E.coli.fasta 
+
+#3 -m counts characters which in this case character length = genome sequence length
+wc -m ../data/E.coli.fasta 
+
+#4 after removing the first info line in Fasta.file and newlines, grep -o matches only "ATGC"
+tail -n +2 ../data/E.coli.fasta | tr -d '\n' | grep -o "ATGC" | wc -l 
+
+#5 for i from 1 to the length of the genome sequence, each base out of 4 is counted corrspondingly and then stored in 'b' when looped ith time
+tail -n +2 ../data/E.coli.fasta | tr -d '\n' | awk '{for(i=1;i<=length;i++){b=substr($0,i,1); if(b=="A")A++; else if(b=="T")T++; else if(b=="G")G++; else if(b=="C")C++} } END {print (A+T)/(G+C)}'
+
+#6 I created this txt.file first under /fasta dir
+mv Unixprac1.txt ~/Documents/CMEECourseWork/week1/code/ 
+
