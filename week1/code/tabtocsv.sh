@@ -8,9 +8,10 @@
 # Date: Oct 2019
 
 
+
+# Check that exactly one argument is provided
 if [ "$#" -ne 1 ]; then
     echo "Error: Missing input file."
-    echo "Usage: $0 <tab_delimited_file>"
     exit 1
 fi
 
