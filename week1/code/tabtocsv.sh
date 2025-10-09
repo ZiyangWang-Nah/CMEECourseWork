@@ -5,7 +5,7 @@
 #
 # Saves the output into a .csv file
 # Arguments: 1 -> tab delimited file
-# Date: Oct 2019
+# Date: Oct 2025
 
 
 
@@ -13,6 +13,16 @@
 if [ "$#" -ne 1 ]; then
     echo "Error: Missing input file."
     echo "Usage: $0 <input_file>"
+    exit 1
+fi
+# Check that the input file is a regular file and exists
+if [ ! -f "$1" ]; then
+    echo "Error: File '$1' not found!"
+    exit 1
+fi
+# Check that the input file has a .txt extension
+if [[ "$1" != *.txt ]]; then
+    echo "Error: Input file must be a .txt file."
     exit 1
 fi
 
