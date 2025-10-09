@@ -1,6 +1,6 @@
 #!/bin/bash
-#If 3 arguments are not provided, print this 'error' message
-if [ "$#" -ne 3 ]; then
+#If 2 arguments are not provided, print this 'error' message
+if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <file1> <file2> <output_file>"
     exit 1
 fi
