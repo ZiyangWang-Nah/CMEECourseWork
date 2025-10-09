@@ -5,7 +5,7 @@ wc -l ../data/*
 tail -n +2 ../data/E.coli.fasta 
 
 #3 -m counts characters which in this case character length = genome sequence length
-wc -m ../data/E.coli.fasta 
+tail -n +2 ../data/E.coli.fasta | wc -m
 
 #4 after removing the first info line in Fasta.file and newlines, grep -o matches only "ATGC"
 tail -n +2 ../data/E.coli.fasta | tr -d '\n' | grep -o "ATGC" | wc -l 
