@@ -1,6 +1,6 @@
 #!/bin/sh
 # Author: zw2425@imperial.ac.uk
-# Script: tabtocsv.sh
+# Script: ConcatenateTwoFiles.sh
 # Description: Merge two files into one
 # Arguments: 1 -> tab delimited file
 # Date: Oct 2025

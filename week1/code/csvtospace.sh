@@ -1,6 +1,6 @@
 #!/bin/sh
 # Author: zw2425@imperial.ac.uk
-# Script: tabtocsv.sh
+# Script: csvtospace.sh
 # Description: substitute the commas in the files with tabs
 #
 # Saves the output into a .txt file
