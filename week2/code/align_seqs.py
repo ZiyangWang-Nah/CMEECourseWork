@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+
 """
+align_seqs.py
+
 Description:
     Align two DNA sequences read from a CSV file
     and save the best alignment and score to a text file.

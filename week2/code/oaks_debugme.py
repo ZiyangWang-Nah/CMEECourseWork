@@ -1,3 +1,17 @@
+#!/usr/bin/env python3 
+
+"""
+oaks_debugme.py
+
+Descriptions: 
+    Filter oak species from a CSV file and save them to a new CSV file. 
+    Additionally, it can identify oak species even with minor typos in the genus name. 
+    Docstring includes examples and can be tested with doctest set in the key function is_an_oak(name).  
+
+Usage:
+    python3 oaks_debugme.py
+"""
+
 import csv
 import sys
 import os

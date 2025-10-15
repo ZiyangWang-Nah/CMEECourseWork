@@ -1,3 +1,16 @@
+#!/usr/bin/env python3 
+
+"""
+lc2.py
+
+Descriptions: 
+    Process UK rainfall data to filter months (sometimes together with rainfall) based on rainfall thresholds,
+    with (1) and (2) using list comprehensions, and (3) using conventional loops.
+
+Usage:
+    python3 lc2.py
+"""
+
 # Average UK Rainfall (mm) for 1910 by month
 # http://www.metoffice.gov.uk/climate/uk/datasets
 rainfall = (('JAN',111.4),

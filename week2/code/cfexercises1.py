@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
-"""Description of this program or application.
-You can use several lines"""
+"""
+cfexercises1.py
+
+Descriptions: 
+    A collection of functions for basic mathematical operations which can be called and tested.
+
+Usage:
+    python3 cfexercises1.py
+"""
 
 __appname__ = '[application name here]'
 __author__ = 'ZiyangWang-Nah (zw2425@ic.ac.uk)'

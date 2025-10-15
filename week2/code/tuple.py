@@ -1,3 +1,15 @@
+#!/usr/bin/env python3 
+
+"""
+tuple.py
+
+Descriptions: 
+    Print bird species data (latin name, common name, mass) in a formatted manner.
+
+Usage:
+    python3 tuple.py
+"""
+
 birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
           ('Delichon urbica','House martin',19),
           ('Junco phaeonotus','Yellow-eyed junco',19.5),

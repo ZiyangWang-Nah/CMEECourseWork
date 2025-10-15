@@ -1,3 +1,18 @@
+#!/usr/bin/env python3
+
+"""
+dictionary.py
+
+Description:
+    This script creates a dictionary (`taxa_dic`) mapping taxonomic orders to sets of species names.
+    It demonstrates two approaches:
+        (1) Using conventional loops
+        (2) Using a dictionary comprehension
+
+Usage:
+    python3 dictionary.py
+"""
+
 taxa = [ ('Myotis lucifugus','Chiroptera'),
          ('Gerbillus henleyi','Rodentia',),
          ('Peromyscus crinitus', 'Rodentia'),
