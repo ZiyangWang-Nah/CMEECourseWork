@@ -1,7 +1,7 @@
 # My CMEE Coursework Repository
 This CMEECoursework is used to practise and improve our skills in Unix, Shell Script, Git Version Control, LATEX, Python and R. Detailed learning notes are marked in README.md under each week directory. Here is the following file structure in this repository:
 --- 
-## CMEECourseWork
+## CMEECourseWork 
 ```
 ├── week1/
 │ ├── code/
@@ -37,6 +37,7 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── dictionary.py
 │ │ ├── lc1.py
 │ │ ├── lc2.py
+│ │ ├── loops.py
 │ │ ├── MyExampleScript.py
 │ │ ├── oaks_debugme.py
 │ │ ├── oaks.py
