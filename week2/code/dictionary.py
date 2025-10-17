@@ -41,6 +41,7 @@ for species, order in taxa:
                 taxa_dic[order] = {species}
         else:
                 taxa_dic[order].add(species)
+
 print(taxa_dic)
 
 # Now write a list comprehension that does the same (including the printing after the dictionary has been created)  
