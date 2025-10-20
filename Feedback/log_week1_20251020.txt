@@ -161,8 +161,8 @@ No errors.
 FEEDBACK SUMMARY
 ======================================================================
 
-Scripts tested: 6
-Scripts successful: 6
+Scripts tested: 3
+Scripts successful: 3
 Scripts with errors: 0
 Warnings/Notes: 1
 
