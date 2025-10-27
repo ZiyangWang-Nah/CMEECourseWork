@@ -1,0 +1,63 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Permutation Test Analysis: Florida Temperature Trends}
+\author{Ziyang Wang zw2425@ic.ac.uk}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+This analysis investigates whether there is a statistically significant correlation between year and temperature in the Key West, Florida dataset spanning 1901-2000. A permutation test was conducted to assess the significance of the observed correlation coefficient.
+
+\section*{Methods}
+\begin{itemize}
+    \item Dataset: Key West Annual Mean Temperature (1901-2000)
+    \item Observed correlation between Year and Temperature: $r = 0.533$
+    \item Permutation approach: 10,000 random shuffles of temperature values
+    \item Test statistic: Pearson correlation coefficient
+    \item Null hypothesis: No correlation between year and temperature
+    \item Alternative hypothesis: Non-zero correlation (two-sided test)
+\end{itemize}
+
+\section*{Results}
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}lc@{}}
+\toprule
+\textbf{Statistic} & \textbf{Value} \\
+\midrule
+Observed Correlation & 0.533 \\
+Mean Permuted Correlation & -0.001 \\
+Standard Deviation & 0.101 \\
+p-value & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{permutation_histogram.pdf}
+\caption{Distribution of 10,000 permutation correlation coefficients. The red line indicates the observed correlation (0.533).}
+\end{figure}
+
+\section*{Interpretation}
+The permutation test reveals strong evidence against the null hypothesis:
+\begin{itemize}
+    \item The observed correlation of 0.533 indicates a moderate positive relationship between year and temperature
+    \item None of the 10,000 permuted datasets produced a correlation coefficient as extreme as the observed value
+    \item The resulting p-value of approximately 0.000 provides strong statistical evidence ($p < 0.001$) that the correlation is not due to random chance
+\end{itemize}
+
+This suggests a statistically significant warming trend in Key West, Florida over the 20th century, consistent with broader climate change patterns observed in many regions.
+
+\end{document}
