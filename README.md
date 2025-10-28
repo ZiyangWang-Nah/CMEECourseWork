@@ -54,5 +54,21 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── TestOaksData.csv
 │ └── results/
 │ └── sandbox/ #added in .gitignore
+├── week3/
+│ ├── code/
+│ │ ├── Florida.R
+│ │ ├── Florida.tex
+│ │ ├── PP_Regress.R
+│ │ ├── TreeHeight.R
+│ ├── data/
+│ │ ├── EcolArchives-E089-51-D1.csv
+│ │ ├── KeyWestAnnualMeanTemperature.RData
+│ │ ├── trees.csv
+│ ├── results/
+│ │ ├── Florida.pdf
+│ │ ├── PP_Regress.pdf
+│ │ ├── PP_Regress_Results.pdf
+│ │ ├── TreeHt.pdf
+│ ├── sandbox/ (in .gitignore)
 └── README.md
 ```
