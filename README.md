@@ -60,15 +60,45 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── Florida.tex
 │ │ ├── PP_Regress.R
 │ │ ├── TreeHeight.R
+│ │ ├── DataWrang.R
+│ │ ├── Girko.R
+│ │ ├── MyBars.R
+│ │ ├── R_conditionals.R
+│ │ ├── Ricker.R
+│ │ ├── SQLinR.R
+│ │ ├── Try.R
+│ │ ├── Vectorize1.R
+│ │ ├── Vectorize2.R
+│ │ ├── apply1.R
+│ │ ├── apply2.R
+│ │ ├── basic_io.R
+│ │ ├── boilerplate.R
+│ │ ├── break.R
+│ │ ├── browse.R
+│ │ ├── control_flow.R
+│ │ ├── next.R
+│ │ ├── plotLin.R
+│ │ ├── preallocate.R
+│ │ ├── sample.R
 │ ├── data/
 │ │ ├── EcolArchives-E089-51-D1.csv
 │ │ ├── KeyWestAnnualMeanTemperature.RData
 │ │ ├── trees.csv
+│ │ ├── MyData.csv
+│ │ ├── PoundHillData.csv
+│ │ ├── PoundHillMetaData.csv
+│ │ ├── Results.txt
 │ ├── results/
 │ │ ├── Florida.pdf
 │ │ ├── PP_Regress.pdf
 │ │ ├── PP_Regress_Results.pdf
 │ │ ├── TreeHt.pdf
+│ │ ├── Girko.pdf
+│ │ ├── MyBars.pdf
+│ │ ├── MyFirst_ggplot2_Figure.pdf
+│ │ ├── MyLinReg.pdf
+│ │ ├── Pred_Prey_Overlay.pdf
+│ │ ├── Rplot.pdf
 │ ├── sandbox/ (in .gitignore)
 └── README.md
 ```
