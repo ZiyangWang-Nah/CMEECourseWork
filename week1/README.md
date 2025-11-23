@@ -1,27 +1,37 @@
 # Week1
-The ***../week1*** contains 4 directories which are **'data'**, **'code'**, **'results'** and **'sandbox'**. **'data'** contains all data files used to support practice files in the **'code'** directory. **'results'** dir is empty and **'sandbox'** dir is under .gitignore so that both folders do not appear under ***../week1***. Here are some comments made on these exercises.
-## Chap1 ***FASTA Exercise***
-#1 '-l' after 'wc' counts lines of a certain file or specific file(s) under a designated directory
+Unix is a robust, machine-independent operating system, known for its stability, security, and hierarchical file structure. Modern systems like Linux and macOS are Unix-like environments, providing an ideal habitat for programming and data analysis with their text-based philosophy and extensive toolset. Shell scripting allows users to automate sequences of Unix commands by saving them in executable files. While not a full programming language replacement, shell scripts are perfect for creating utility tools for file manipulation, format conversions, backups, and batch processing, enabling efficient automation of everyday tasks without needing additional software dependencies.  
 
-#2 'tail -n +2' prints everything from the second line
+Scripts not for assigned practicals are generally used for giving a taste on certain aspects of Unix language and can be directly run from the Bash terminal, using *bash name-of-the-script.sh*. Example usages of practical scripts will be given if necessary.
 
-#3 After extracting the whole genome, 'wc -m' counts characters which in this case character length = genome sequence length
+## UnixPrac1.txt
+Documents command-line operations for exploring DNA sequences including FASTA file analysis, genome length calculation, pattern matching, and nucleotide frequency analysis.
 
-#4 After removing the first info line in Fasta.file and newlines, 'grep -o' matches only "ATGC" and 'wc -l' counts line of the 'filtered' E.coli fasta
+## boilerplate.sh
+Demonstrates basic structure with shebang, comments, and echo commands.
 
-#5 for i from 1 to the length of the genome sequence, each base out of 4 is counted corrspondingly and then stored in 'b' when looped ith time
-## Chap2 ***Improving Scripts***
-Let's take **tabtocsv.sh** and **ConcatenateTwoFiles.sh** as examples of robust scripts that offer users error messages if right inputs are not provided
-### tabtocsv.sh
-Three 'pairs' of 'if, then, fi' are applied to improve scripts:
+## ConcatenateTwoFiles.sh
+Merges the contents of two input files into a single output file using cat commands with basic file validation.  
+Example usage (in bash terminal): *bash concatenateTwoFiles.sh eg1.txt eg2.txt*
 
-["$#" -ne 1] means the number of input argument is not equal to 1;
+## CountLines.sh
+Counts and displays the number of lines
 
-[ ! -f "$1" ] means the input argument is not (!) a regular file (-f), and
+## csvtospace.sh
+Converts CSV files to tab-delimited format by replacing commas with tabs, saving as .txt files with input validation.  
+Example usage: Even you forget to specify the input argument, error messages will show up as a reminder. Normally in bash terminal, you should type *bash csvtospace.sh eg1.csv*
 
-["$1" != *.txt ] means first input argument is not a txt.extension file
-### ConcatenateTwoFiles.sh
-Quite similar to the previous exercise but the the number of input arguments are 2 ($1 and $2) as the $3 is output argument. 
+## MyExampleScript.sh
+Demonstrates variable usage in shell scripts by greeting the current user through both stored variables and direct environment variable access.
 
-## ***A new shell script***
-I suppose **csvtospace.sh** is just a reversed version of **tabtocsv.sh**
+## tabtocsv.sh
+Converts tab-delimited .txt files to CSV format by replacing tabs with commas, with comprehensive file extension and existence checks.  
+Example usage: reversed version of csvtospace.sh
+
+## tiff2png.sh
+Converts all TIFF images in the current directory to PNG format 
+
+## variables.sh
+Demonstrates various variable types including special parameters, user input reading, and command substitution for arithmetic operations.
+
+
+

@@ -1,6 +1,8 @@
 # Biological Computing in Python
 Python is a contemporary, user-friendly, interpreted (partially compiled) programming language designed with code readability as a priority. It offers a wide range of robust packages suitable for diverse biological applications and analyses. Python scripts in week2 help users in learning scientific programming for biology with Python.
 
+Scripts not for assigned practicals are generally used for giving a taste on certain aspects of Python language and can be directly run from the Bash terminal, using *python3 name-of-the-script.py*. Example usages of practical scripts will be given if necessary.
+
 ## align_seqs.py
 This script align two DNA sequences read from a CSV file and save the best alignment and score to a text file.
 
@@ -20,7 +22,8 @@ This script pickles a dictionary and saves it to a binary file and unpickles it.
 A fresh trial to give a taste on writing a python program.
 
 ## cfexercises1.py
-This script contains a collection of functions for basic mathematical operations which can be called and tested.
+This script contains a collection of functions for basic mathematical operations which can be called and tested.  
+Example usage: After import cfexercises1 to other scripts, you can call functions defined in cfexercises1.py using *cfexercises1.foo_6(5)*
 
 ## cfexercises2.py
 This script uses different ways (six functions) to say hello (X) to test how many times “hello” will be printed when meeting specific conditions.
