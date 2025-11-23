@@ -42,6 +42,9 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── oaks_debugme.py
 │ │ ├── oaks.py
 │ │ ├── pd
+│ │ ├── profileme.py
+│ │ ├── profileme2.py
+│ │ ├── timeitme.py
 │ │ ├── sysargv.py
 │ │ ├── test_control_flow.py
 │ │ ├── tuple.py

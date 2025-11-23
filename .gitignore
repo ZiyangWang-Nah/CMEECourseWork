@@ -1,6 +1,6 @@
 *~ 
 *.tmp
-week1/sandbox/
+week1/sandbox/*
 week2/sandbox/*
 !week2/sandbox/test.txt
 !week2/sandbox/testp.p
