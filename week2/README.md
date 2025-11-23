@@ -52,11 +52,20 @@ Filter oak species from a CSV file and save them to a new CSV file. Additionally
 ## oaks.py
 This scripts finds species names started with 'quercus' (both lower and upper case) using two methods: (1) 'traditional' loops, and (2) list comprehensions
 
+## profileme.py
+Demonstrates inefficient Python code using explicit for loops with append() for list creation and string concatenation, for performance comparison.
+
+## profileme2.py
+Shows optimized versions of the same functions using a list comprehension for faster list creation and improved string joining, demonstrating more efficient coding practices.
+
 ## sysargv.py
 This script prints the argument variables in Python which hold the arguments I pass to my Python script.
 
 ## test_control_flow.py
 A python program that contains a function called even_or_odd() to identify whether an input (number) is even or odd and prints two example usages with this function in **main** function. A doctest is also applied to check some simple tests incluced in the docstring for that function.
+
+## timeitme.py
+Compares the execution speed of both implementations using Python's timing functions, specifically testing whether list comprehensions are faster than traditional loops for list creation.
 
 ## tuple.py
 This script print bird species data (latin name, common name, mass) in a formatted manner.
