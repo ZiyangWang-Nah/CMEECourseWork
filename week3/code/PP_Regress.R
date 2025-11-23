@@ -1,4 +1,5 @@
 rm(list=ls())
+library(dplyr)
 
 MyDF <- read.csv("../data/EcolArchives-E089-51-D1.csv")
 dim(MyDF) #check the size of the data frame you loaded

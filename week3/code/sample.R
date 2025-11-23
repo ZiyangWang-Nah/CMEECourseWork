@@ -68,9 +68,6 @@ print(system.time(sapply_sample(popn, n, num)))
 print("Using the vectorized lapply function (on a list) took:" )
 print(system.time(lapply_sample(popn, n, num)))
 
-""" 
 
-The most efficient method is to use the vectorized sapply and lapply function,
-because it uses vectorized iteration (fast C-level implementation) and directly returns a vector, minimizing overhead.
-
-"""
+# The most efficient method is to use the vectorized sapply and lapply function,
+# because it uses vectorized iteration (fast C-level implementation) and directly returns a vector, minimizing overhead.
