@@ -1,18 +1,16 @@
-#1
+#1 counts lines of all files with a 'fasta' extension
 wc -l ../data/*.fasta
 
-#2 
+#2 prints everything from the second line to the end
 tail -n +2 ../data/E.coli.fasta 
 
-#3 
+#3 For all characters from the second line to the end, count the number of characters = genome length
 tail -n +2 ../data/E.coli.fasta | wc -m
 
-#4 
+#4 After removing the first info line in Fasta.file and newlines, matches only "ATGC", and counts line of the 'filtered' E.coli fasta
 tail -n +2 ../data/E.coli.fasta | tr -d '\n' | grep -o "ATGC" | wc -l 
 
-#5 
+#5 for i from 1 to the length of the genome sequence, each base out of 4 is counted corrspondingly and then stored in 'b' when looped ith time
 tail -n +2 ../data/E.coli.fasta | tr -d '\n' | awk '{for(i=1;i<=length;i++){b=substr($0,i,1); if(b=="A")A++; else if(b=="T")T++; else if(b=="G")G++; else if(b=="C")C++} } END {print (A+T)/(G+C)}'
 
-#I created this txt.file first under /fasta dir
-mv Unixprac1.txt ~/Documents/CMEECourseWork/week1/code/ 
 
