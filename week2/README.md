@@ -1,7 +1,7 @@
 # Biological Computing in Python
 Python is a contemporary, user-friendly, interpreted (partially compiled) programming language designed with code readability as a priority. It offers a wide range of robust packages suitable for diverse biological applications and analyses. Python scripts in week2 help users in learning scientific programming for biology with Python.
 
-Scripts not for assigned practicals are generally used for giving a taste on certain aspects of Python language and can be directly run from the Bash terminal, using *python3 name-of-the-script.py*. Example usages of practical scripts will be given if necessary.
+Scripts not for assigned practicals are generally used for giving a taste on certain aspects of Python language and can be directly run from the Bash terminal, using *python3 name-of-the-script.py*. Example usages of practical scripts will be given if necessary. The following python scripts are edited and tested on Python 3.12.3
 
 ## align_seqs.py
 This script align two DNA sequences read from a CSV file and save the best alignment and score to a text file.
