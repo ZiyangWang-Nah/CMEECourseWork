@@ -1,5 +1,14 @@
 # My CMEE Coursework Repository
-This CMEECoursework is used to practise and improve our skills in Unix, Shell Script, Git Version Control, LATEX, Python and R. Detailed learning notes are marked in README.md under each week directory. Here is the following file structure in this repository:
+This CMEECoursework is used to practise and improve our skills in Unix, Shell Script, Git Version Control, LATEX, Python and R. Across three weeks, the course systematically builds computational literacy for biological research:
+
+1. Unix for automation and reproducibility
+
+2. Python for scripting and workflow design
+
+3. R for statistical modeling and visualization
+
+By the end, I basically gained hands-on experience writing real scripts, analyzing ecological and genomic datasets, and generating results as a complete foundation in biological data science and programming. Detailed learning notes are marked in README.md under each week directory. Here is the following file structure in this repository:
+
 --- 
 ## CMEECourseWork 
 ```
@@ -37,7 +46,6 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── cfexercises1.py
 │ │ ├── cfexercises2.py
 │ │ ├── control_flow.py
-│ │ ├── csv
 │ │ ├── debugme.py
 │ │ ├── dictionary.py
 │ │ ├── lc1.py
@@ -46,7 +54,6 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── MyExampleScript.py
 │ │ ├── oaks_debugme.py
 │ │ ├── oaks.py
-│ │ ├── pd
 │ │ ├── profileme.py
 │ │ ├── profileme2.py
 │ │ ├── timeitme.py
