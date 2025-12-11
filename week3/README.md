@@ -1,7 +1,7 @@
 # Biological computing in R & Data management and visualization
 R is a powerful, freely available statistical programming language that has become the standard tool for data analysis and visualization in biological sciences. Originally based on commercial statistical software, R has evolved into a comprehensive environment for statistical computing, data mining, and mathematical modeling in biology.
 
-Scripts not for assigned practicals are generally used for giving a taste on certain aspects of R language and can be directly run from the Bash terminal in VScode, using *source name-of-the-script.R* or from Rstudio (my preference). Example usages of practical scripts will be given if necessary.
+Scripts not for assigned practicals are generally used for giving a taste on certain aspects of R language and can be directly run from the Bash terminal in VScode, using *source name-of-the-script.R* or from Rstudio (my preference). Example usages of practical scripts will be given if necessary. The following R scripts are edited and tested on R Version 4.3.2.
 
 ## apply1.R
 This script creates a 10×10 matrix M filled with 100 random normal values, then uses ***apply()*** to compute and print the mean of each row ***(apply(M, 1, mean))***, the variance of each row ***(apply(M, 1, var))***, and the mean of each column ***(apply(M, 2, mean))***.
