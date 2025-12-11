@@ -5,10 +5,15 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 ```
 ├── week1/
 │ ├── code/
-│ │ ├── tabtocsv.sh
-│ │ ├── UnixPrac1.txt
-| | ├── csvtospace.sh
+| | ├── boilerplate.sh
 | | ├── ConcatenateTwoFiles.sh
+| | ├── CountLines.sh
+| | ├── csvtospace.sh
+| | ├── MyExampleScript.sh
+│ │ ├── tabtocsv.sh
+| | ├── tiff2png.sh
+│ │ ├── UnixPrac1.txt
+| | ├── variables.sh
 │ ├── data/
 | | ├── 1800.csv
 | | ├── 1801.csv
@@ -59,19 +64,6 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ └── sandbox/ #added in .gitignore
 ├── week3/
 │ ├── code/
-│ │ ├── Florida.R
-│ │ ├── Florida.tex
-│ │ ├── PP_Regress.R
-│ │ ├── TreeHeight.R
-│ │ ├── DataWrang.R
-│ │ ├── Girko.R
-│ │ ├── MyBars.R
-│ │ ├── R_conditionals.R
-│ │ ├── Ricker.R
-│ │ ├── SQLinR.R
-│ │ ├── Try.R
-│ │ ├── Vectorize1.R
-│ │ ├── Vectorize2.R
 │ │ ├── apply1.R
 │ │ ├── apply2.R
 │ │ ├── basic_io.R
@@ -79,29 +71,32 @@ This CMEECoursework is used to practise and improve our skills in Unix, Shell Sc
 │ │ ├── break.R
 │ │ ├── browse.R
 │ │ ├── control_flow.R
+│ │ ├── DataWrang.R
+│ │ ├── Florida.R
+│ │ ├── Florida.tex
+│ │ ├── Girko.R
+│ │ ├── MyBars.R
 │ │ ├── next.R
 │ │ ├── plotLin.R
+│ │ ├── PP_Regress.R
 │ │ ├── preallocate.R
+│ │ ├── R_conditionals.R
+│ │ ├── Ricker.R
 │ │ ├── sample.R
+│ │ ├── SQLinR.R
+│ │ ├── TreeHeight.R
+│ │ ├── Try.R
+│ │ ├── Vectorize1.R
+│ │ ├── Vectorize2.R
 │ ├── data/
 │ │ ├── EcolArchives-E089-51-D1.csv
 │ │ ├── KeyWestAnnualMeanTemperature.RData
-│ │ ├── trees.csv
 │ │ ├── MyData.csv
 │ │ ├── PoundHillData.csv
 │ │ ├── PoundHillMetaData.csv
 │ │ ├── Results.txt
+│ │ ├── trees.csv
 │ ├── results/
-│ │ ├── Florida.pdf
-│ │ ├── PP_Regress.pdf
-│ │ ├── PP_Regress_Results.pdf
-│ │ ├── TreeHt.pdf
-│ │ ├── Girko.pdf
-│ │ ├── MyBars.pdf
-│ │ ├── MyFirst_ggplot2_Figure.pdf
-│ │ ├── MyLinReg.pdf
-│ │ ├── Pred_Prey_Overlay.pdf
-│ │ ├── Rplot.pdf
 │ ├── sandbox/ (in .gitignore)
 └── README.md
 ```
